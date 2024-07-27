@@ -73,15 +73,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Feedback and suggestions are always welcome! If you have ideas for improvements or spot any issues, please open an issue or submit a pull request.
 
-## 🙋‍♂️ Contact
-
-For any questions or feedback, feel free to reach out to me at your-email@example.com.
-
 Thank you for exploring the Stopwatch Application! I hope you find it useful and easy to use. ⏱️✨
 
-### Notes:
-1. **Project Demo URL**: Replace `https://prodigyinfotech-internship-stopwatch.netlify.app` with the actual URL where the Stopwatch Application is live.
-2. **Contact Information**: Update `[E-mail](mailto:s.thulasiraman03778@gmail.com)` with your actual contact email or preferred contact method.
-
-This `README.md` provides a detailed overview of the Stopwatch Application, including how to run it locally, the technologies used, and contact information.
 
