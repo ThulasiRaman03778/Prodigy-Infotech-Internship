@@ -5,23 +5,23 @@ Welcome to my **web development journey** with Prodigy Infotech! 🚀 In this re
 ## 🛠️ Projects Overview
 
 ### Task 1: Responsive Navigation Menu
-**Project:** [Caffeine Corner](#https://prodigyinfotech-caffeine-corner.netlify.app)  
+**Project:** [Caffeine Corner](https://prodigyinfotech-caffeine-corner.netlify.app)  
 **Description:** A **responsive navigation menu** designed for the "Caffeine Corner" model project. This menu seamlessly adapts across devices and features interactive elements like color changes on scroll and hover effects. Perfect for a modern web experience! 🌈🔗
 
 ### Task 2: Stopwatch Application
-**Project:** [Stopwatch Application](#https://prodigyinfotech-internship-stopwatch.netlify.app)  
+**Project:** [Stopwatch Application](https://prodigyinfotech-internship-stopwatch.netlify.app)  
 **Description:** A **web-based stopwatch** with functionalities for starting, pausing, resetting, and tracking lap times. The interface is user-friendly, ensuring a smooth and intuitive experience. ⏱️🕒
 
 ### Task 3: Tic-Tac-Toe Game
-**Project:** [Tic-Tac-Toe](#https://prodigyinfotech-internship-tictoctoe.netlify.app)  
+**Project:** [Tic-Tac-Toe](https://prodigyinfotech-internship-tictoctoe.netlify.app)  
 **Description:** A **classic Tic-Tac-Toe game** featuring robust game logic for turn management and win condition checks. Designed to be fully responsive, it provides a seamless experience across various devices. 🎮📱
 
 ### Task 4: Personal Portfolio
-**Project:** [Personal Portfolio](#https://prodigyinfotechinternship-portfolio.netlify.app/#home)  
+**Project:** [Personal Portfolio](https://prodigyinfotechinternship-portfolio.netlify.app/#home)  
 **Description:** A **personal portfolio website** to showcase my projects and skills. This portfolio includes detailed descriptions and features a responsive layout for an optimal viewing experience on all devices. 🖼️📝
 
 ### Task 5: Weather App
-**Project:** [Weather App](#https://prodigyinfotech-internship-weatherapp.netlify.app)  
+**Project:** [Weather App](https://prodigyinfotech-internship-weatherapp.netlify.app)  
 **Description:** A **weather application** that fetches and displays current weather information using a weather API. With a clean, user-friendly interface, this app is designed to be responsive across different devices. ☀️🌧️
 
 ## 📁 Repository Structure
