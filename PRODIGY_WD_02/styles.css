@@ -1,0 +1,118 @@
+:root {
+    --primary-color: rgb(247, 206, 129);
+    --secondary-color: rgba(247, 233, 206, 0.771);
+    --button-color: #b36602;
+    --button-hover-color: rgb(240, 159, 8);
+    --text-color: #b36602;
+    --shadow-color: rgba(228, 150, 4, 0.723);
+    --underline-color: #333;
+    --background-image: url('assets/stopwatch_image.gif');
+    --font-primary: "Cinzel Decorative", serif;
+    --font-secondary: "Old Standard TT", serif;
+}
+
+body {
+    font-family: var(--font-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--primary-color);
+    background-image: var(--background-image);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+h1 {
+    display: flex;
+    margin-top: -40px;
+    padding: 20px 60px;
+    font-family: var(--font-primary);
+    font-size: 4rem;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    justify-content: center;
+    color: var(--text-color);
+    text-decoration: underline;
+    animation: fadeIn 2s ease-in;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+.stopwatch {
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding: 50px 100px;
+    border-radius: 10px;
+    box-shadow: 3px 10px var(--shadow-color);
+    width: 300px;
+}
+
+.display {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    font-family: var(--font-secondary);
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-family: var(--font-button);
+    font-size: 16px;
+    cursor: pointer;
+    background-color: var(--button-color);
+    color: rgb(255, 253, 252);
+    border: none;
+    border-radius: 4px;
+}
+
+.controls button:hover {
+    background-color: var(--button-hover-color);
+    color: var(--text-color);
+}
+
+.laps {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.laps ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.laps ul li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+@media (max-width: 600px) {
+    .stopwatch {
+        width: 80%;
+    }
+
+    .controls button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .display {
+        font-size: 2.5rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    body {
+        background-size: contain;
+    }
+}
