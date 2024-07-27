@@ -29,13 +29,15 @@ To view or modify the Caffeine Corner project locally, follow these steps:
 Simply double-click the index.html file or open it with your preferred web browser to view the navigation menu.
 
 
-## 🔧 Technologies Used
+## 🔧 Technologies Used:
+   -HTML: For structuring the navigation menu.
+   
+   -CSS: For styling the menu and handling responsive design.
+   
+   -JavaScript: For adding interactivity, such as color changes on scroll and hover effects.
+   
 
--HTML: For structuring the navigation menu.
--CSS: For styling the menu and handling responsive design.
--JavaScript: For adding interactivity, such as color changes on scroll and hover effects.
-
-## 📄 License
+## 📄 License:
 
 This project is licensed under the MIT License - see the [LICENSE](LINCENSE.txt) file for details.
 
@@ -45,8 +47,7 @@ Thank you for exploring the Caffeine Corner navigation menu! I hope you enjoy th
 
 
 ### Notes:
-1. **Project Demo URL**: Replace `(https://prodigyinfotech-caffeine-corner.netlify.app)` with the actual URL where the Caffeine Corner project is hosted.
-2. 
-3. **Contact Information**: Update `[E-mail](mailto:s.thulasiraman03778@gmail.com` with your actual contact email or preferred contact method.
+
+ **Project Demo URL**: Replace `(https://prodigyinfotech-caffeine-corner.netlify.app)` with the actual URL where the Caffeine Corner project is hosted.
 
 This `README.md` provides a comprehensive overview of the Caffeine Corner project, including features, how to get started, and contact information.
