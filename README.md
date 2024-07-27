@@ -1,2 +1,10 @@
-# Prodigy-Infotech
-Explore the "Prodigy Infotech Web Development Internship" on GitHub! This repository offers resources, tools, and project examples for interns looking to excel in web development. Dive into practical coding exercises, learn industry best practices, and build your portfolio with real-world projects guided by Prodigy Infotech.
+# Prodigy-Infotech Web Development
+🌐 Explore a series of web development projects completed during my internship at Prodigy Infotech! 🚀 This repository includes:
+- 🧭 Responsive Navigation Menu
+- ⏱️ Stopwatch Application
+- ❌⭕ Tic-Tac-Toe Game
+- 🖼️ Personal Portfolio
+- 🌦️ Weather App
+
+Showcasing skills in HTML, CSS, JavaScript, and responsive design. 🎨✨
+
