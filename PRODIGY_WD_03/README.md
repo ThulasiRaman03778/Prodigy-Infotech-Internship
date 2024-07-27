@@ -50,9 +50,12 @@ To run the Tic-Tac-Toe game locally, follow these steps:
    
 2.**Navigate to the Tic-Tac-Toe directory:**
 
-cd prodigy-infotech-web-internship/task3/
-Open the index.html file in your browser:
+    cd prodigy-infotech-web-internship/task3/
+
+3.**Open the index.html file in your browser:**  
+
 Simply double-click the index.html file or open it with your preferred web browser to start playing the game.
+
 3.**🔧 Technologies Used:**
 
 -HTML: For structuring the game interface.
@@ -63,7 +66,7 @@ Simply double-click the index.html file or open it with your preferred web brows
 
 ## 📄 License:
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/ThulasiRaman03778/Prodigy-Infotech-Internship/blob/main/LINCENSE.txt) file for details.
 
 ## 📝 Contributing
 
