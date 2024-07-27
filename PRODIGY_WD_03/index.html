@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <!--Start Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_package_/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_package_/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_package_/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+    <!--Ending Favicons-->
+    <!--Font-Family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Cinzel+Decorative:wght@400;700;900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!--end-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic-Tac-Toe</h1>
+        <div id="board" class="board">
+            <div class="cell" onclick="placeMarker(this)"></div>
+            <div class="cell" onclick="placeMarker(this)"></div>
+            <div class="cell" onclick="placeMarker(this)"></div>
+            <div class="cell" onclick="placeMarker(this)"></div>
+            <div class="cell" onclick="placeMarker(this)"></div>
+            <div class="cell" onclick="placeMarker(this)"></div>
+            <div class="cell" onclick="placeMarker(this)"></div>
+            <div class="cell" onclick="placeMarker(this)"></div>
+            <div class="cell" onclick="placeMarker(this)"></div>
+            <div class="result-display"></div>
+        </div>
+        <button onclick="resetBoard()">Reset Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
