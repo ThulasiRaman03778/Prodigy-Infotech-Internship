@@ -1,0 +1,237 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('assets/image/weather_image.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:rgba(163, 251, 163, 0.643);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    user-select: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.weather-app {
+    width: 80%;
+    max-width: 800px;
+    background-color: #c8fbf8b8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:15px 7px 15px 7px rgba(123, 149, 241, 0.783);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.weather-details{
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.location input {
+    width: 15vw; 
+    height: 40px;
+    padding: 20px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.header {
+    font-family: "Merriweather", serif;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.8rem;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#search-box {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+#search-btn {
+    padding: 12px 22px;
+    background-color: #007bff;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#search-btn:hover {
+    background-color: #0056b3;
+}
+
+.weather-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.current-weather {
+    background-image: url('assets/image/weather.jpg');
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.weather-icon {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.weather-details {
+    font-size: 18px;
+}
+
+.temperature {
+    font-size: 36px;
+}
+
+.unit {
+    font-size: 24px;
+    vertical-align: super;
+}
+
+.climate {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.humidity {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.weather-forecast {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.forecast-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.date-time {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.forecast-item .temperature, .forecast-item .climate, .forecast-item .humidity {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Default background */
+.current-weather {
+    padding: 40px 20px;
+    background-image: url('assets/image/background_image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Default background image */
+    background-color: #f5f5f545; /* Fallback color */
+}
+
+/* Additional background classes based on weather conditions */
+.current-weather.clear {
+    background-image: url('assets/image/sunny_image.jpg');
+    background-color: rgba(255, 255, 255, 0.369);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.current-weather.cloudy {
+    background-image: url('assets/image/cloudy_image.jpg');
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.current-weather.rainy {
+    background-image: url('assets/image/Rainy_image.jpg');
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Media Queries for Responsive Design */
+
+@media only screen and (max-width: 1200px) {
+    .weather-app {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .weather-app {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .weather-app {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .location input {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .weather-app {
+        font-size: 1.2rem;
+    }
+
+    .header {
+        font-size: 1.2rem;
+    }
+
+    .location input {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .temperature {
+        font-size: 24px;
+    }
+
+    .unit {
+        font-size: 18px;
+    }
+
+    .climate {
+        font-size: 16px;
+    }
+
+    .humidity {
+        font-size: 14px;
+    }
+}

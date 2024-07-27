@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--Starting Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_package/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_package/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_package/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!--Ending favicons-->
+    <!--Font-family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Cinzel+Decorative:wght@400;700;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <div class="weather-app">
+        <div class="header">
+            <h1>Weather App</h1>
+        </div>
+        <div class="location">
+            <input type="text" id="search-box" class="search-box" placeholder="Enter City name">
+            <button id="search-btn">Search</button>
+        </div>
+        <div class="current-weather" id="current-weather">
+            <div class="weather-icon">
+                <!-- Weather icon here -->
+            </div>
+            <div class="weather-details">
+                <div class="temperature">
+                    <span class="value">--</span><span class="unit">°C</span>
+                </div>
+                <div class="climate">
+                    <h3>--</h3>
+                </div>
+                <div class="humidity">
+                   <h3>Humidity ---</h3>
+                </div><br>
+                <div class="date-time">
+                    Today :- <span class="time">--</span>
+                </div>
+            </div>
+         </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
