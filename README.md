@@ -46,7 +46,7 @@ Feel free to dive in and check out the live demos linked above! 💻👨‍💻
 
 © 2024 Prodigy Infotech. All rights reserved.
 
-This project is licensed under the [MIT License](GPL-3.0) - see the file for details.
+This project is licensed under the [MIT License](LINCENSE.txt) - see the file for details.
 
 ---
 
