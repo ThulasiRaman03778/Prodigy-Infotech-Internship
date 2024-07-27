@@ -1,4 +1,4 @@
-# 🌟 Prodigy Infotech Web Internship Projects (July 2024) 🌟
+# 🌟 Prodigy Infotech Web Development Internship Projects (July 2024) 🌟
 
 Welcome to my **web development journey** with Prodigy Infotech! 🚀 In this repository, you'll find a collection of projects that showcase my growth and skills in web development. From crafting sleek, responsive designs to building interactive applications, these projects represent the core of what I’ve learned. Dive in and see how I’ve transformed concepts into real-world web solutions! 🌐✨
 
