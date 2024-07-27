@@ -39,7 +39,7 @@ Simply double-click the index.html file or open it with your preferred web brows
 
 ## 📄 License:
 
-This project is licensed under the MIT License - see the [LICENSE](LINCENSE.txt) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/ThulasiRaman03778/Prodigy-Infotech-Internship/blob/main/LINCENSE.txt) file for details.
 
 For any questions or feedback, please reach out to me at s.thulasiraman03778@gmail.com
 
