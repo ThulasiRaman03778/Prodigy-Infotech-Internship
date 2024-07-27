@@ -1,0 +1,519 @@
+
+body {
+    padding:0;
+    margin:0;
+    user-select: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    background: #ffffff;
+    padding: 10px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+#home {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+#home h2{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 3rem;
+    font-style: normal;
+    color:#fff;
+    padding: 10px 20px;
+    margin-top: 170px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap; 
+    animation: typewriter 4s steps(40, end);
+}
+@keyframes typewriter {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('assets/Image/coffee_background.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    opacity: 0; 
+    animation: slideDown 1s ease-out forwards; 
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.home-content{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 1rem;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    word-spacing: 5px;
+    margin-top:70px ;
+    padding: 0px 30px;
+    text-align:justify;
+    width: 50vw;
+    color:#fff;
+    animation: fade-in 2.5s ease-out;
+}
+@keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+.container {
+    position: relative; /* Ensure content is above the background image */
+    z-index: 1;
+}
+
+/* Header styles */
+header {
+    align-items: center;
+    justify-content:space-evenly;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 1rem;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    background-color: rgb(255, 166, 0);
+    position: relative;
+    color: #fff;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo-name{
+    margin-left: 70px;
+    position: absolute;
+    top:5%;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 10px;
+    cursor: pointer;
+    color:rgba(255, 255, 255, 0.875);
+    animation: scale-up 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+@keyframes scale-up {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+.logo-img{
+    position:absolute;
+    top: 10;
+    margin:10px;
+    width:3.5vw;
+    height:5vh;
+    border-radius: 50%;
+
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding: 3px 10px;
+    font-weight: bold;
+}ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 0 10px;
+}
+
+li a {
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #fff;
+    background-color:rgba(202, 136, 14, 0.93);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+li a:hover {
+    padding: 10px 10px;
+    background-color:rgba(245, 206, 135, 0.93);
+    border-radius: 3px;
+    color: #fff;
+}
+section {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+/* Menu Section */
+#menu {
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 2rem;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    word-spacing: 8px;
+    text-decoration: underline;
+    background-color: wheat;
+    padding: 20px;
+}
+
+.container-menu {
+    margin: 70px;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,  1fr); 
+    gap: 30px;
+}
+.menu-item {
+    border-radius: 30px;
+    box-shadow:0px 15px 20px rgb(215, 146, 18);
+    overflow: hidden;
+    width: 28vw;
+    height:50vh; /* Clip the image */
+}
+
+.item-content {
+    position: relative;
+}
+
+.item-content img {
+    width: 100%;
+    height: 30%;
+    transition: transform 0.3s;
+}
+.item-content:hover img {
+    transform: scale(1.1); 
+}
+.details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.item-content:hover .details {
+    opacity: 1; 
+}
+
+.details h3,
+.details p {
+    margin-bottom: 10px;
+}
+.add-to-cart {
+    background-color: #349d38;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 2rem;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.add-to-cart:hover {
+    background-color: #17e11e; 
+}
+/* About section*/
+#about{
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 2rem;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    word-spacing: 8px;
+    background-color: wheat;
+}
+#about h1{
+    text-decoration: underline;  
+}
+.about-container h2{
+    margin:30px;
+    text-align:left;
+    font-size: 1.8rem;
+    text-decoration: underline;
+
+}
+.about-content{
+   font-size: 1.5rem;
+   word-spacing: 10px;
+   text-align: justify;
+   margin: 10px;
+   padding: 20px; 
+   
+}
+/* Contact-Form */
+#contact{
+    background-color: rgb(245, 206, 135);
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 1rem;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+.contact-form{
+    margin-top: 50px;
+    box-shadow: 5px -10px 15px rgb(246, 161, 2);
+}
+.contact-details h2 {
+    text-align: center;
+    color: #4CAF50;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.form-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+.form-group input, .form-group textarea, .form-group select {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-group select {
+    padding: 0.5rem 2rem 0.5rem 0.5rem;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%231d5a1d'%3E%3Cpath d='M7.293 9.293a1 1 0 011.414 0l4 4a1 1 0 11-1.414 1.414L8 11.414l-3.293 3.293a1 1 0 11-1.414-1.414l4-4z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.5rem center;
+    background-size: 1.5em 1.5em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.form-group textarea {
+    height: 100px;
+}
+.form-group input[type="submit"] {
+
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+.form-group input[type="submit"]:hover {
+    background-color: #45a049;
+}
+/* Footer */
+/* Reset default margins and padding */
+  
+  /* General styles for the footer */
+  .footer {
+    padding-right: 10px ;
+    background-color: #333;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 40px 0;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+ .col-md-6 {
+    flex: 0 0 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+    margin-bottom: 20px;
+  }
+
+  .footer p {
+    margin-left: 15px;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #00aaff; 
+  }
+  /* Responsive Design */
+@media  only screen and (max-width: 768px) {
+    .container-menu {
+      grid-template-columns: 1fr;
+      margin: 30px; 
+    }
+  
+    .menu-item {
+      width: 100%;
+    }
+  
+    .footer {
+      padding: 20px 0;
+    }
+  
+    .col-md-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    } 
+}
+  @media only screen and (max-width: 480px) {
+    .home-content,
+    .about-content,
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      width: 100%;
+    }
+  
+    .container-menu {
+      margin: 20px; 
+    }
+  
+    .menu-item {
+      height: auto;
+    }
+  
+    .footer {
+      text-align: center; 
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    #navbar {
+        justify-content: center;
+    }
+
+    ul {
+        flex-direction: row;
+    }
+
+    li {
+        margin: 0 5px;
+    }
+
+    li a {
+        padding: 8px 12px;
+    }
+}
+@media (max-width: 767px) {
+    #navbar {
+        display: flex;
+        padding: 10px 15px;
+        flex-direction: column;
+        text-align: end;
+        justify-content: space-evenly;
+        font-weight: bold;
+    }
+
+    ul {
+        flex-direction:row;
+        width: 100%;
+    }
+
+    li {
+        position: relative;
+        top:90px;
+        left:65px;
+        text-align: end;
+        margin: 15px;
+    }
+
+    li a {
+         padding: 25px 1px;
+         left: 55px;
+         font-size:13px;
+         background-color:#33333300;
+         
+    }li a:hover{
+        padding: 10px 15px;
+        font-size: 15px;
+        border-radius: 22.4%;
+        background-color: #ffffff22;
+
+    }
+    .logo-name{
+        position: absolute;
+        text-align:justify;
+        left:30px;
+        font-size: 2.4rem;
+
+    }
+    .logo-img{
+        margin:10px;
+        width: 15.6vw;
+        height:8vh ;
+        cursor: pointer;
+    }
+    #home h2{
+        font-size: 1.5rem;
+        word-spacing: 7px;
+        width:100%;
+    }
+    .home-content{
+        position: relative;
+        top:-40px;
+        width: 85vw;
+        font-size: 1rem;
+        font-weight: 50px;
+    }
+
+}
